@@ -17,10 +17,6 @@
 #   define DLog(...)
 #endif
 
-#if !__has_feature(objc_arc)
-#   error "Missing objc_arc feature"
-#endif
-
 // CustomPSPDFThreadSafeMutableDictionary interface copied from
 // CustomPSPDFThreadSafeMutableDictionary.m:
 //
